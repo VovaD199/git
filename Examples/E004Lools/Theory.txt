@@ -1,0 +1,28 @@
+/*
+A while loop statement repeatedly executes a target statement as long as a given condition is true.
+*/
+
+int number = 0;
+while (number <= 5) {
+    System.out.println(number);
+    number++;
+}
+==================================
+/*
+do while
+The difference between do-while and while is that do-while evaluates its expression at the bottom of the loop
+ instead of the top. Therefore, the statements within the do block are always executed at least once
+*/
+int i = 0;
+do {
+    System.out.print(++i);
+} while (i < 5);
+
+================================
+/*
+The for statement provides a compact way to iterate over a range of values.
+*/
+int[] numbers = {5, 6, 8, 3, 5, 7, 9};
+for(int i = 0; i < numbers.length; i++){
+    System.out.println(numbers[i]);
+}

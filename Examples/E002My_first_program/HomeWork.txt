@@ -1,12 +1,34 @@
-package Examples.E002My_first_program;
-
-public class HomeWork {
-}
-/*
 Install JDK and Eclipse.
 Create Java project.
 Create console application. In method main() write code for solving next tasks:
 Flower bed is shaped like a circle. Calculate the perimeter and area by entering the radius. Output obtained results.
 Define String variables name and address. Output question "What is your name?" Read the value name and output next question: “Where are you live, (name)?". Read address and write whole information.
 Phone calls from three different countries are с1, с2 and с3 standard units per minute. Talks continued t1, t2 and t3 minutes. How much computer will count for each call separately and all talk together? Input all source data from console, make calculations and output to the screen.
- */
+
+
+«3»: Ввести три числа, найти их сумму.
+    Пример:
+     Введите три числа:
+     4
+     5
+     7
+     4+5+7=16
+
+«4»: Ввести три числа, найти их сумму и произведение.
+    Пример:
+     Введите три числа:
+     4
+     5
+     7
+     4+5+7=16
+     4*5*7=140
+
+«5»: Ввести три числа, найти их сумму, произведение и среднее арифметическое.
+    Пример:
+    Введите три числа:
+     4
+     5
+     7
+     4+5+7=16
+     4*5*7=140
+     (4+5+7)/3=5.333333

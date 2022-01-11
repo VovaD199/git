@@ -1,0 +1,37 @@
+/*
+Short form of conditional statement
+*/
+int num1 = 6;
+int num2 = 4;
+if(num1>num2){
+    System.out.println("Первое число больше второго");
+}
+
+/*
+The full form of the conditional operator
+*/
+if(num1>num2){
+    System.out.println("Первое число больше второго");
+}
+else{
+    System.out.println("Первое число меньше второго");
+}
+
+/*
+The else if form of the conditional operator
+*/
+if(num1>num2){
+    System.out.println("Первое число больше второго");
+}
+else if(num1<num2){
+    System.out.println("Первое число меньше второго");
+}
+else{
+    System.out.println("Числа равны");
+
+/*
+Также мы можем соединить сразу несколько условий, используя логические операторы
+*/
+if(num1 > num2 && num1>7){
+    System.out.println("Первое число больше второго и больше 7");
+}
