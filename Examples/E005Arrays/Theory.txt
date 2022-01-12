@@ -23,3 +23,4 @@ arrayRefVar = new dataType[arraySize];
 
     dataType[] arrayRefVar = {значение0, значение1, ..., значениеk};
 Элементы массива доступны через индекс. Отсчет индексов ведется от 0; то есть они начинают от 0 и до arrayRefVar.length-1.
+
