@@ -21,3 +21,4 @@ class Test2 {
 
     private static int number = 5;
 }
+

@@ -5,10 +5,12 @@ public class EncapsulationSettersAndGetters {
         Person.getDescription("New");
         Person person1 = new Person();
         Person person2 = new Person();
+
         person1.setName("");
+
         person1.setAge(-5);
         person1.speak();
-        person2.setName("Tom");
+        person2.setName("");
         person2.setAge(5);
         person2.speak();
         person1.getAge();
@@ -26,11 +28,11 @@ class Person {
     }
 
 
-    //по умолчанию
+    //конструктор по умолчанию
     public Person() {
     }
 
-    //для персон
+    //конструктор для персон
     public Person(String name, int age) {
         this.name = name;
         this.age = age;
@@ -41,6 +43,7 @@ class Person {
     }
 
     public void setName(String name) {
+
         this.name = name;
     }
 
