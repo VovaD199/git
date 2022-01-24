@@ -1,7 +1,7 @@
 package Examples.E009InterfacesAbstract_classes.Interfaces;
 
 public class Person implements Info {
-    public String name;
+    private String name;
 
 // alt+Insert = Const
     public Person(String name) {
@@ -9,11 +9,11 @@ public class Person implements Info {
     }
 
     public void seyHello(){
-        System.out.println("Hello");
+        System.out.println("Person, seyHello");
     }
 
     @Override
     public void showInfo() {
-        System.out.println("Name is "+this.name);
+        System.out.println("Person. Name is "+this.name);
     }
 }

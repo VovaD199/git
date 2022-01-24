@@ -1,17 +1,17 @@
 package Examples.E009InterfacesAbstract_classes.Interfaces;
 
 public class Animal implements Info{
-    public int id;
+    private int id;
 
     public Animal(int id) {
         this.id = id;
     }
 
     public void sleep(){
-        System.out.println("I am sleeping");
+        System.out.println("Animal. I am sleeping");
     }
 
     public void showInfo(){
-        System.out.println("id is "+this.id);
+        System.out.println("Animal. Id is "+this.id*2);
     }
 }
