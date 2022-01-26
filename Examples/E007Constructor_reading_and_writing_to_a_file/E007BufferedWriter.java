@@ -11,7 +11,6 @@ public class E007BufferedWriter {
             String text = "Hello  World!\nHey! May the force be with you!";
             bw.write(text);
         } catch (IOException ex) {
-
             System.out.println(ex.getMessage());
         }
     }
