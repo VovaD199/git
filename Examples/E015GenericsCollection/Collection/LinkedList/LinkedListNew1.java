@@ -1,5 +1,6 @@
 package Examples.E015GenericsCollection.Collection.LinkedList;
 
+import java.util.Arrays;
 import java.util.LinkedList;
 
 public class LinkedListNew1 {
@@ -14,9 +15,10 @@ public class LinkedListNew1 {
         states.addLast("Great Britain"); // добавляем на последнее место
         states.addFirst("Spain"); // добавляем на первое место
         states.add(1, "Italy"); // добавляем элемент по индексу 1
-
+        System.out.println("-------------------------");
         System.out.printf("List has %d elements \n", states.size());
         System.out.println(states.get(1));
+        System.out.println("-------------------------");
         states.set(1, "Portugal");
         for (String state : states) {
 
@@ -32,17 +34,17 @@ public class LinkedListNew1 {
         states.removeFirst(); // удаление первого элемента
         states.removeLast(); // удаление последнего элемента
 
-        LinkedList<Person> people = new LinkedList<Person>();
-        people.add(new Person("Mike"));
-        people.addFirst(new Person("Tom"));
-        people.addLast(new Person("Nick"));
-        people.remove(1); // удаление второго элемента
+        LinkedList<Person> peoples = new LinkedList<Person>();
+        peoples.add(new Person("Mike"));
+        peoples.addFirst(new Person("Tom"));
+        peoples.addLast(new Person("Nick"));
+        peoples.remove(1); // удаление второго элемента
 
-        for (Person p : people) {
+        for (Person people : peoples) {
 
-            System.out.println(p.getName());
+            System.out.println(people.getName());
         }
-        Person first = people.getFirst();
+        Person first = peoples.getFirst();
         System.out.println(first.getName()); // вывод первого элемента
     }
 }
